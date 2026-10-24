@@ -46,6 +46,23 @@ Full reference: [Terminal Use (MCP) docs](https://neuroterm.dev/docs/agent-seria
 
 Windows 10/11 (`.exe`, `.msi`) and Linux (`.deb`, `.rpm`, `.AppImage`): see the [latest release](https://github.com/Ecro/neuroterm-release/releases/latest) or [neuroterm.dev/download](https://neuroterm.dev/download). macOS is not supported yet.
 
+These URLs always point at the latest release:
+
+```sh
+# Ubuntu / Debian
+curl -L -o neuroterm.deb https://neuroterm.dev/dl/deb && sudo apt install ./neuroterm.deb
+
+# Fedora / RHEL
+curl -L -o neuroterm.rpm https://neuroterm.dev/dl/rpm && sudo dnf install ./neuroterm.rpm
+```
+
+```powershell
+# Windows (PowerShell)
+Invoke-WebRequest https://neuroterm.dev/dl/exe -OutFile NeuroTerm-setup.exe; .\NeuroTerm-setup.exe
+```
+
+Also `https://neuroterm.dev/dl/msi` and `https://neuroterm.dev/dl/appimage`.
+
 ## License
 
 NeuroTerm is proprietary software, free for individuals at home or at work, with no usage limits. A company with more than 10 employees that rolls it out to its staff needs Commercial seats. See [pricing](https://neuroterm.dev/pricing) and [terms](https://neuroterm.dev/terms). This repository holds the release binaries and the issue tracker; the source code is not published here.
