@@ -4,7 +4,7 @@
 
 NeuroTerm is a free serial and SSH terminal for embedded developers on Windows and Linux. It opens serial (UART), SSH with an SFTP sidebar, WSL, local shell and TCP / RTT tabs, up to 20 sessions at once. Through **Terminal Use**, its built-in MCP server, Claude Code and Codex can read your serial and SSH consoles and type only when you allow.
 
-[Website](https://neuroterm.dev) · [Download](https://neuroterm.dev/download) · [Docs](https://neuroterm.dev/docs) · [Demo video](https://www.youtube.com/watch?v=9ddM6887Hpw) · [Report an issue](https://github.com/Ecro/neuroterm-release/issues)
+[Website](https://neuroterm.dev) · [Download](https://neuroterm.dev/download) · [Docs](https://neuroterm.dev/docs) · [Demo video](https://www.youtube.com/watch?v=9ddM6887Hpw) · [Report an issue](https://github.com/Ecro/neuroterm-issues/issues/new/choose)
 
 ![NeuroTerm: Claude Code beside a serial tab](https://neuroterm.dev/media/neuroterm-preview.png)
 
@@ -65,4 +65,4 @@ Also `https://neuroterm.dev/dl/msi` and `https://neuroterm.dev/dl/appimage`.
 
 ## License
 
-NeuroTerm is proprietary software, free for individuals at home or at work, with no usage limits. A company with more than 10 employees that rolls it out to its staff needs Commercial seats. See [pricing](https://neuroterm.dev/pricing) and [terms](https://neuroterm.dev/terms). This repository holds the release binaries and the issue tracker; the source code is not published here.
+NeuroTerm is proprietary software, free for individuals at home or at work, with no usage limits. A company with more than 10 employees that rolls it out to its staff needs Commercial seats. See [pricing](https://neuroterm.dev/pricing) and [terms](https://neuroterm.dev/terms). This repository holds the release binaries; the source code is not published here. Report bugs and request features at [Ecro/neuroterm-issues](https://github.com/Ecro/neuroterm-issues).
