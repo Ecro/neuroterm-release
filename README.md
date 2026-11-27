@@ -18,11 +18,11 @@ A coding agent that opens `/dev/ttyUSB0` itself tends to hang: a serial port nev
 
 NeuroTerm registers its MCP server, named `neuroterm`, with Claude Code and Codex for you.
 
-1. Open **Settings → Coding agents → Setup**, choose **Set up…** in the row of the host where your agent runs, then **Set up…** next to Terminal Use.
+1. Open **Settings → Coding agents → Connect a coding agent**, choose **Connect…** in the row of the host where your agent runs and keep Terminal Use on.
 2. Start `claude` or `codex` in a NeuroTerm **Local** or **WSL** tab. On Windows, start Codex from a WSL tab.
 3. Ask, for example: "Read the boot log in my serial tab".
 
-The agent can then work in your serial, SSH, WSL, Local and TCP tabs. Reading needs no approval. Running a command, typing or resetting the board shows a request in that tab first (Allow or Deny, 45 s), unless you allowed that agent for the session or turned on Allow automatically.
+The agent can then work in your serial, SSH, WSL, Local and TCP tabs. Reading needs no approval. Running a command, typing or resetting the board shows a request in that tab first (Allow or Deny, 45 s), unless you allowed that agent for the session or turned on Auto-allow in Settings.
 
 | Tool | What it does |
 |---|---|

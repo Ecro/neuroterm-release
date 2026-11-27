@@ -20,11 +20,11 @@ NeuroTerm は組み込み開発者向けの無料のシリアル / SSH ターミ
 
 NeuroTerm は `neuroterm` という名前の MCP サーバーを Claude Code と Codex に自動で登録します。
 
-1. **Settings → Coding agents → Setup** を開き、エージェントが動くホストの行で **Set up…** を選び、Terminal Use の横の **Set up…** を押します。
+1. **Settings → Coding agents → Connect a coding agent** を開き、エージェントが動くホストの行で **Connect…** を選びます。Terminal Use はオンのままにします。
 2. NeuroTerm の **Local** または **WSL** タブで `claude` か `codex` を起動します。Windows では Codex を WSL タブから起動してください。
 3. たとえば "Read the boot log in my serial tab"（シリアルタブのブートログを読んで）と頼みます。
 
-これでエージェントは、シリアル、SSH、WSL、Local、TCP の各タブで作業できます。読み取りに承認は要りません。コマンドの実行、入力、ボードのリセットは、まずそのタブに確認が出ます（Allow か Deny、45 秒）。そのセッションでエージェントを許可済みか、Allow automatically をオンにしている場合は出ません。
+これでエージェントは、シリアル、SSH、WSL、Local、TCP の各タブで作業できます。読み取りに承認は要りません。コマンドの実行、入力、ボードのリセットは、まずそのタブに確認が出ます（Allow か Deny、45 秒）。そのセッションでエージェントを許可済みか、Settings で Auto-allow をオンにしている場合は出ません。
 
 | ツール | できること |
 |---|---|
