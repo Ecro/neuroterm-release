@@ -20,11 +20,11 @@ NeuroTerm 是一款面向嵌入式开发者的免费串口和 SSH 终端，支�
 
 NeuroTerm 会替你把名为 `neuroterm` 的 MCP 服务器注册到 Claude Code 和 Codex。
 
-1. 打开 **Settings → Coding agents → Setup**，在智能体所在主机那一行选择 **Set up…**，再点击 Terminal Use 旁边的 **Set up…**。
+1. 打开 **Settings → Coding agents → Connect a coding agent**，在智能体所在主机那一行选择 **Connect…**，并保持 Terminal Use 开启。
 2. 在 NeuroTerm 的 **Local** 或 **WSL** 标签页中启动 `claude` 或 `codex`。在 Windows 上，请从 WSL 标签页启动 Codex。
 3. 试着提问，例如："Read the boot log in my serial tab"（读取我串口标签页里的启动日志）。
 
-之后，智能体就可以在你的串口、SSH、WSL、Local 和 TCP 标签页中工作。读取不需要批准。执行命令、输入或复位开发板时，会先在该标签页中显示请求（Allow 或 Deny，45 秒），除非你已在本次会话中允许该智能体，或打开了 Allow automatically。
+之后，智能体就可以在你的串口、SSH、WSL、Local 和 TCP 标签页中工作。读取不需要批准。执行命令、输入或复位开发板时，会先在该标签页中显示请求（Allow 或 Deny，45 秒），除非你已在本次会话中允许该智能体，或在 Settings 中打开了 Auto-allow。
 
 | 工具 | 作用 |
 |---|---|
